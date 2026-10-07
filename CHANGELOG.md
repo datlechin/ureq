@@ -1,5 +1,6 @@
 # Unreleased
 
+  * Apply the connect timeout to the SOCKS handshake and drop the socks dependency
   * Check NO_PROXY before resolving a SOCKS proxy, so excluded hosts connect directly
   * Retry socket reads interrupted by a signal (EINTR) when a timeout applies (technically breaking) #1205
   * Fix native-tls-no-default enabling dependencies without enabling the TLS connector
